@@ -1,0 +1,118 @@
+// IMPORTS
+
+@import "standards";
+@import "music";
+@import "reset"; 
+
+html, body{
+    background:@light;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 12px;
+    color: @dark;
+    a{
+        text-decoration: none;
+    }
+}
+
+header{
+    width:100%;
+    color:@dark;
+    padding: 1% 15%;
+    background: white;
+    box-sizing: border-box;
+    border-bottom: @darkT 1px solid;
+    .logo{
+        font-size: 2em;
+        float: left;
+        .fontLogo;   
+    }
+    nav{
+        float: right;
+        .fontSans;
+        ul{
+            float: left;
+            margin-top: 2%;
+            li{
+                float: left;
+                margin-left: 10px;
+                font-size: 1.25em;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                a{
+                    float: left;
+                    color: @orange;
+                    text-decoration: none;
+                    &:hover{
+                        color: @light;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// HOME
+
+.homeButton{
+    .fontSans;
+    width:70%;
+    color:@dark;
+    padding: 3%;
+    margin: 5% 15%;
+    font-size: 2em;
+    background: white;
+    text-align: center;
+    box-sizing: border-box;
+    border: @darkT 1px solid;
+    text-transform: uppercase;
+    &:hover{
+        color: white;
+        background: @dark;
+        border: @light 1px solid;
+    }
+}
+
+// PLAYERS
+
+.playerList{
+    .fontSans;
+    width:70%;
+    color:@dark;
+    margin: 1% 15%;
+    background: white;
+    box-sizing: border-box;
+    border: @darkT 1px solid;
+    table{
+        width: 100%;
+        tr{
+            border-bottom: 1px solid @dark;
+            th{
+                .fontSans;
+                padding: 4px;
+                color: white;
+                font-size: 1.5em;
+                background: @dark;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            td{
+                .fontSerif;
+                padding: 10px;
+                font-size: 1.25em;
+                a{
+                    color: @blue;
+                }
+            }
+            &:last-child{
+                border-bottom: white 2px solid;
+            }
+        }
+    }
+}
