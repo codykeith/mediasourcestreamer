@@ -1,5 +1,6 @@
 // IMPORTS
 
+@import "weather";
 @import "standards";
 @import "music";
 @import "reset"; 
@@ -21,17 +22,18 @@ body{
 }
 
 header{
-    right: 0;
-    bottom: 0;
+    left: 0;
+    top: 0;
     .fontLogo;   
     float: left;
     z-index: 999;
-    color: white;
-    padding: 5px;
+    padding: .5em 1em;
+    color: @lightT;
     font-size: 2em;
     position: fixed;
     background: @darkT;
     letter-spacing: 1px;
+    border-bottom-right-radius: 1em;
 }
 
 .MusicPlayer{
@@ -515,22 +517,45 @@ header{
     @media screen and (max-width: 600px) { 
         .slideshow li div h3 { font-size: 50px }
     }
-    .dsInfo{
+    .DSInfo{
         bottom: 0;
         width: 100%;
         height: 20%;
         position: fixed;
-        background: @blue;
+        background: @dark;
         aside{
             .fontLogo;
             width: 20%;
-            padding: 2%;
+            padding: 2% 0 0 0;
+            float: left;
             height: 100%;
             color: white;
             font-size: 3em;
-            letter-spacing: 2px;
             text-align: center;
-            border-right: 1px solid @light;
+            letter-spacing: 2px;
+            box-sizing: border-box;
+        }
+        .InformationChannel{
+            float: left;
+            height: 100%;
+            color: white;
+            box-sizing: border-box;
+            border-left: 1px solid @light;
+            &.eighty{
+                width: 80%;
+            }
+            &.sixty{
+                width: 60%;
+            }
+            &.forty{
+                width: 40%;
+            }
+            &.twenty{
+                width: 20%;
+            }
+            &.center{
+                text-align: center;
+            }
         }
     }
 }

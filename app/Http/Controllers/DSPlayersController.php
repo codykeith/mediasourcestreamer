@@ -37,4 +37,8 @@ class DSPlayersController extends Controller
     {
         return view('digitalsignage.device');
     }
+    public function contenteditor()
+    {
+        return view('digitalsignage.contenteditor');
+    }
 }

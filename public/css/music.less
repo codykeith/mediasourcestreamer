@@ -105,6 +105,37 @@
             text-align: center;
         }
     }
+    table{
+        width: 100%;
+        tr{
+            border-bottom: 1px solid @dark;
+            th{
+                .fontSans;
+                padding: 4px;
+                color: @dark;
+                font-size: 1.25em;
+                font-weight: normal;
+                text-transform: uppercase;
+                &.right{
+                    text-align:right;
+                }
+            }
+            td{
+                .fontSerif;
+                padding: 4px;
+                font-size: 1.25em;
+                a{
+                    color: @blue;
+                }
+                &.right{
+                    text-align:right;
+                }
+            }
+            &:nth-child(2n){
+                background: @light;
+            }
+        }
+    }
     button{
         .fontSans;
         width: 70%;

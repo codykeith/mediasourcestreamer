@@ -37,4 +37,8 @@ class MusicPlayersController extends Controller
     {
         return view('musicplayers.device');
     }
+    public function contenteditor()
+    {
+        return view('musicplayers.contenteditor');
+    }
 }

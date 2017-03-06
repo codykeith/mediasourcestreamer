@@ -30,7 +30,7 @@
                     poll: 1000,
                     functions: {},
                     dumpLineNumbers: "comments",
-                    relativeUrls: false,
+                    relativeUrls: true,
                     rootpath: ":/a.com/"
                   };
                 </script>

@@ -17,15 +17,15 @@
                 <td>UNIT-0002</td>
                 <td>Headquarters</td>
                 <td>12345 South 5th St, Austin, TX 78745</td>
-                <td><a href="edit/?playernumber">Edit</a></td>
-                <td><a href="launch/?playernumber">Launch</a></td>
+                <td><a href="music/edit/?playernumber">Edit</a></td>
+                <td><a href="music/launch/?playernumber">Launch</a></td>
             </tr>
             <tr>
                 <td>UNIT-0002</td>
                 <td>Headquarters</td>
                 <td>12345 South 5th St, Austin, TX 78745</td>
-                <td><a href="edit/?playernumber">Edit</a></td>
-                <td><a href="launch/?playernumber">Launch</a></td>
+                <td><a href="music/edit/?playernumber">Edit</a></td>
+                <td><a href="music/launch/?playernumber">Launch</a></td>
             </tr>
         </table>
     </section>

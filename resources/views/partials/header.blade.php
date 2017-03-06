@@ -1,5 +1,7 @@
 <header>
-    <div class="logo">Media Source Streamer</div>
+    <div class="logo">
+        <a href="/">Media Source Streamer</a>
+    </div>
     <nav>
         <ul>
             @if (Auth::check())

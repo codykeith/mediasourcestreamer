@@ -37,4 +37,8 @@ class IDPlayersController extends Controller
     {
         return view('interactivedisplay.device');
     }
+    public function contenteditor()
+    {
+        return view('interactivedisplay.contenteditor');
+    }
 }

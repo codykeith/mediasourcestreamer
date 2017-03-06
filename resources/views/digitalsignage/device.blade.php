@@ -84,8 +84,9 @@
 </style>
 
 <section class="DigitalSignagePlayer">
+    
     <ul class="slideshow">
-        <li><span>Image 01</span><div><h3>A little something something</h3></div></li>
+        <li><span>Image 01</span></li>
         <li><span>Image 02</span></li>
         <li><span>Image 03</span></li>
         <li><span>Image 04</span></li>
@@ -93,11 +94,66 @@
         <li><span>Image 06</span></li>
     </ul>
     <div class="container"></div>
-    <div class="dsInfo">
+    
+    <div class="DSInfo">
+        
         <aside>
             Weather<br>
             Information
         </aside>
+        
+        <div class="InformationChannel twenty center">
+            <div class="WeatherDay">
+                <h1>Austin, TX</h1>
+                <h2>Today</h2>
+                <div class="icon cloudy">
+                    <div class="cloud"></div>
+                    <div class="cloud"></div>
+                </div>
+                <div class="temp">71&#176; | Cloudy</div>
+            </div>
+        </div>
+        
+        <div class="InformationChannel twenty center">
+            <div class="WeatherDay">
+                <h1>Austin, TX</h1>
+                <h2>Tomorrow</h2>
+                <div class="icon rainy">
+                    <div class="cloud"></div>
+                    <div class="rain"></div>
+                </div>
+                <div class="temp">65&#176; | Showers</div>
+            </div>
+        </div>
+        
+        <div class="InformationChannel twenty center">
+            <div class="WeatherDay">
+                <h1>Austin, TX</h1>
+                <h2>March 8, 2017</h2>
+                <div class="icon sun-shower">
+                    <div class="cloud"></div>
+                    <div class="sun">
+                        <div class="rays"></div>
+                    </div>
+                    <div class="rain"></div>
+                </div>
+                <div class="temp">54&#176; | Drizzle</div>
+            </div>
+        </div>
+        
+        <div class="InformationChannel twenty center">
+            <div class="WeatherDay">
+                <h1>Austin, TX</h1>
+                <h2>March 9, 2017</h2>
+                <div class="icon sunny">
+                <div class="sun">
+                    <div class="rays"></div>
+                </div>
+                </div>
+                <div class="temp">83&#176; | Sunny</div>
+            </div>
+        </div>
+        
     </div>
 </section>
 
