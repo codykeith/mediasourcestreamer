@@ -33,11 +33,11 @@ header{
         .fontLogo;   
     }
     nav{
-        float: right;
         .fontSans;
+        float: right;
+        margin-top: .5%;
         ul{
             float: left;
-            margin-top: 2%;
             li{
                 float: left;
                 margin-left: 10px;
@@ -51,6 +51,13 @@ header{
                     &:hover{
                         color: @light;
                         text-decoration: none;
+                    }
+                    &.logout{
+                        color: @blue;
+                        &:hover{
+                            color: @light;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
@@ -112,6 +119,187 @@ header{
             }
             &:last-child{
                 border-bottom: white 2px solid;
+            }
+        }
+    }
+}
+
+.login{
+    .fontSans;
+    width:70%;
+    color:@dark;
+    margin: 1% 15%;
+    background: white;
+    box-sizing: border-box;
+    border: @darkT 1px solid;
+    h3{
+        .fontSans;
+        margin: 1% 0 2% 0;
+        color: white;
+        padding: .5% 0;
+        font-size: 2em;
+        background: @dark;
+        text-align: center;
+        border-top: @dark 1px solid;
+        border-bottom: @dark 1px solid;
+        &.first{
+            margin-top: 0;
+            border-top: 0;
+            margin-bottom: .5%;
+        }
+    }
+    form{
+        font-weight: normal;
+        label{
+            .fontSans;
+            width: 70%;
+            font-size: 1.5em;
+            padding-top: 10px;
+            text-align: center;
+            display: none;
+            margin: 0 15% .5% 15%;
+            &.half{
+                width: 10%;
+                margin-right: 3%;
+            }
+        }
+        input[type=text]{
+            .fontSerif;
+            width: 80%;
+            border:none;
+            padding: 5px;
+            font-size: 1.5em;
+            margin-bottom: .5%;
+            box-sizing: border-box;
+            border-bottom: @dark 1px solid;
+            &.half{
+                width: 17%;
+                margin-right: 3.3333%;
+                &.last{
+                    width: 20.33333%;
+                    margin-right: 0;
+                }
+            }
+        }
+        input[type=email]{
+            .fontSerif;
+            width: 70%;
+            border:none;
+            padding: 5px;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 15% 2% 15%;
+            box-sizing: border-box;
+            border-bottom: @dark 1px solid;
+            &.half{
+                width: 17%;
+                margin-right: 3.3333%;
+                &.last{
+                    width: 20.33333%;
+                    margin-right: 0;
+                }
+            }
+        }
+        input[type=password]{
+            .fontSerif;
+            width: 70%;
+            border:none;
+            padding: 5px;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 15% 2% 15%;
+            box-sizing: border-box;
+            border-bottom: @dark 1px solid;
+            &.half{
+                width: 17%;
+                margin-right: 3.3333%;
+                &.last{
+                    width: 20.33333%;
+                    margin-right: 0;
+                }
+            }
+        }
+        select{
+            .fontSerif;
+            width: 80%;
+            border:none;
+            float: left;
+            padding: 5px;
+            font-size: 1.5em;
+            margin-bottom: .5%;
+            box-sizing: border-box;
+            border-bottom: @dark 1px solid;
+        }
+        button{
+            .fontSerif;
+            width: 70%;
+            border:none;
+            float: left;
+            padding: 5px;
+            font-size: 1.5em;
+            margin: 0 15% 2% 15%;
+            box-sizing: border-box;
+        }
+        .RememberMe{
+            .fontSerif;
+            width: 70%;
+            border:none;
+            padding: 5px;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 15% 2% 15%;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.rates{
+    .fontSans;
+    width:70%;
+    color:@dark;
+    margin: 1% 15%;
+    padding: 1%;
+    background: white;
+    box-sizing: border-box;
+    border: @darkT 1px solid;
+    h3{
+        .fontSans;
+        margin: 1% 0 .5% 0;
+        color: white;
+        padding: .5% 0;
+        font-size: 2em;
+        background: @dark;
+        text-align: center;
+        border-top: @dark 1px solid;
+        border-bottom: @dark 1px solid;
+        &.first{
+            margin-top: 0;
+            border-top: 0;
+            margin-bottom: .5%;
+        }
+    }
+    table{
+        width: 100%;
+        tr{
+            border-bottom: 1px solid @dark;
+            th{
+                .fontSans;
+                padding: 4px;
+                color: @dark;
+                font-size: 1.25em;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            td{
+                .fontSerif;
+                padding: 4px;
+                font-size: 1.25em;
+                a{
+                    color: @blue;
+                }
+            }
+            &:nth-child(2n){
+                background: @light;
             }
         }
     }

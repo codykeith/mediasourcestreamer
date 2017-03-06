@@ -33,4 +33,8 @@ class MusicPlayersController extends Controller
     {
         return view('musicplayers.launch');
     }
+    public function device()
+    {
+        return view('musicplayers.device');
+    }
 }

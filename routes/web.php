@@ -18,9 +18,32 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+//All Players
+
 Route::get('/players', 'HomeController@players');
 
 // Music Player Pages
+
 Route::get('/players/music', 'MusicPlayersController@index');
-Route::get('/players/edit', 'MusicPlayersController@edit');
-Route::get('/players/launch', 'MusicPlayersController@launch');
+Route::get('/players/music/edit', 'MusicPlayersController@edit');
+Route::get('/players/music/launch', 'MusicPlayersController@launch');
+Route::get('/players/music/device', 'MusicPlayersController@device');
+
+// Digital Signage Players
+
+Route::get('/players/digitalsignage', 'DSPlayersController@index');
+Route::get('/players/digitalsignage/edit', 'DSPlayersController@edit');
+Route::get('/players/digitalsignage/launch', 'DSPlayersController@launch');
+Route::get('/players/digitalsignage/device', 'DSPlayersController@cevice');
+
+// Digital Signage Players
+
+Route::get('/players/interactivedisplay', 'IDPlayersController@index');
+Route::get('/players/interactivedisplay/edit', 'IDPlayersController@edit');
+Route::get('/players/interactivedisplay/launch', 'IDPlayersController@launch');
+Route::get('/players/interactivedisplay/device', 'IDPlayersController@device');
+
+//Account Pages
+Route::get('/account', 'AccountController@index');
+Route::get('/account/rates', 'AccountController@rates');

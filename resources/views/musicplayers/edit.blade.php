@@ -35,6 +35,11 @@
             <option>Interactive Display Player</option>
         </select>
         <div class="clear"></div>
+        <h3>Content Editor</h3>
+        <a href="content">Launch Content Editor</a>
+        <div class="clear"></div>
+        <button>Submit Changes</button>
+        <div class="clear"></div>
     </form>
 </section>
 

@@ -1,0 +1,60 @@
+// IMPORTS
+
+@import "standards";
+@import "music";
+@import "reset"; 
+
+html, body{
+    background:@light;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 12px;
+    color: @dark;
+    a{
+        text-decoration: none;
+    }
+}
+
+header{
+    right: 0;
+    bottom: 0;
+    .fontLogo;   
+    float: left;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+    position: fixed;
+    background: @darkT;
+    letter-spacing: 1px;
+}
+
+.player{
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    color: @dark;
+    background:white;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    h1{
+        .fontSerif;
+        padding: 2%;
+        color: white;
+        font-size: 2em;
+        background: @dark;
+    }
+    .controls{
+        .fontSans;
+        font-size: 2em;
+        text-align: center;
+        i{
+            margin: 10% 5%;
+        }
+    }
+}

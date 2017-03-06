@@ -12,7 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/styles.less') }}" rel="stylesheet/less">
+    <link href="{{ asset('css/device.less') }}" rel="stylesheet/less">
     <link rel="stylesheet" href="/fontawesome/css/font-awesome.min.css">
     
     <!-- GOOGLE FONTS -->
@@ -51,7 +51,7 @@
 </head>
     <body>
         
-        @include('partials.header')
+        @include('partials.deviceheader')
         
         @yield('content')
         

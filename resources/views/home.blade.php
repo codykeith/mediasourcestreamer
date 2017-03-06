@@ -6,11 +6,11 @@
         <section class="homeButton"> View Music Players </section>
     </a>
         
-    <a href="/players/signage">
+    <a href="/players/digitalsignage">
         <section class="homeButton"> View Digital Signage Players </section>
     </a>
     
-    <a href="/players/interactive">
+    <a href="/players/interactivedisplay">
         <section class="homeButton"> View Interactive Display Players </section>
     </a>
 
