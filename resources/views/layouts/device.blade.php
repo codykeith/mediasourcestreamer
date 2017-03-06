@@ -57,7 +57,7 @@
         @yield('content')
         
         <!-- Music Player -->
-            <script type="application/javascript" src="http://127.0.0.1:8000/js/musicplayer.js"></script>
+            <script type="application/javascript" src="/js/musicplayer.js"></script>
         
     </body>
 
