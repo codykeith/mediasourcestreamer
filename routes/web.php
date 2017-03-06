@@ -35,9 +35,9 @@ Route::get('/players/music/device', 'MusicPlayersController@device');
 Route::get('/players/digitalsignage', 'DSPlayersController@index');
 Route::get('/players/digitalsignage/edit', 'DSPlayersController@edit');
 Route::get('/players/digitalsignage/launch', 'DSPlayersController@launch');
-Route::get('/players/digitalsignage/device', 'DSPlayersController@cevice');
+Route::get('/players/digitalsignage/device', 'DSPlayersController@device');
 
-// Digital Signage Players
+// Interactive Display Players
 
 Route::get('/players/interactivedisplay', 'IDPlayersController@index');
 Route::get('/players/interactivedisplay/edit', 'IDPlayersController@edit');

@@ -59,6 +59,9 @@
         <!-- Music Player -->
             <script type="application/javascript" src="/js/musicplayer.js"></script>
         
+        <!-- Digital Signage Player -->
+            <script type="application/javascript" src="/js/dsplayer.js"></script>
+        
     </body>
 
 </html>

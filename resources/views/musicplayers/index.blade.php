@@ -1,4 +1,4 @@
-<!--Music Player Page-->
+<!--Music Player List Page-->
 
 @extends('layouts.loggedin')
 

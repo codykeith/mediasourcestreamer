@@ -1,10 +1,10 @@
-<!--Music Player Page-->
+<!--Music Device Page-->
 
 @extends('layouts.device')
 
 @section('content')
 
-    <section class="player">
+    <section class="MusicPlayer">
         <div class="column add-bottom">
             <div id="mainwrap">
                 <div id="nowPlay">
